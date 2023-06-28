@@ -1,0 +1,36 @@
+{
+    "meetings": [
+        {
+            "id":1,
+            "booker_name":"Dipan Adhikary",
+            "booker_user_type":"Student",
+            "booker_image":"https://pbs.twimg.com/media/FxSBLpMWYAIKllo?format=jpg&name=medium",
+            "datetime":"12:00PM (EST)",
+            "time_slot":60
+        },
+        {
+            "id":2,
+            "booker_name":"Raj Koley",
+            "booker_user_type":"Mentor",
+            "booker_image":"https://pbs.twimg.com/media/FxLylI-WIAEabNt?format=jpg&name=small",
+            "datetime":"02:00 PM (EST)",
+            "time_slot":30
+        },
+        {
+            "id":3,
+            "booker_name":"Soumen Rakshit",
+            "booker_user_type":"Student",
+            "booker_image":"",
+            "datetime":"05:00 PM (EST)",
+            "time_slot":60
+        },
+        {
+            "id":4,
+            "booker_name":"Saran Maiti",
+            "booker_user_type":"Mentor",
+            "booker_image":"",
+            "datetime":"08:00 PM (EST)",
+            "time_slot":30
+        }
+    ]
+  }  

@@ -1,0 +1,80 @@
+.listGroup {
+  padding: 20px 16px;
+  cursor: pointer;
+}
+
+.listProfileSidebarActive {
+  background: #0082b6 !important;
+  border: none !important;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: "Open Sans";
+  color: "#fff";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  border-radius: 8px;
+  padding: 13px !important;
+}
+
+.listProfileSidebar {
+  border: none !important;
+  font-family: "Open Sans";
+  color: "#152536";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  border-radius: 8px;
+  padding: 13px !important;
+}
+
+.listProfileSidebar:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+.listProfileSidebarActive:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.public-DraftStyleDefault-block > span {
+  background-color: white !important;
+}
+
+.activeArticle {
+  background: #0082b6 !important;
+  color: white !important;
+}
+
+.activeArticlecolour {
+  color: white;
+}
+
+.Removetext {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 14px;
+  color: #dc3545;
+}
+
+
+.button-reset {
+  background: none !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  /* cursor: pointer; */
+  /* Add any additional styles to reset button appearance */
+}
+
+/* Table Design */
+.tableBody{
+  background-color: #F9FAFC;
+  border: 1px solid #EFF0F4
+}
+
+

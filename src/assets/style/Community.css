@@ -1,0 +1,61 @@
+.community-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.communityRight-header {
+  display: flex;
+  align-items: center;
+}
+.header-img {
+  padding: 0;
+  margin: 0;
+  width: 34px;
+  height: 34px;
+  cursor: pointer;
+}
+.innerHeader {
+  display: flex;
+  column-gap: 70px;
+}
+.allMembers-text {
+  border-bottom: 3px solid #df6438;
+  color: #68717a;
+  width: 150px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  cursor: pointer;
+}
+.favorites-text {
+  cursor: pointer;
+  color: #152536;
+}
+.communityCardSec {
+  height: calc(100vh - 200px);
+  overflow: auto;
+  padding: 16px;
+}
+.cardBg-img {
+  border-radius: 8px;
+  background-color: gray;
+  height: 262px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  cursor: pointer;
+}
+.member-text {
+  color: #fff;
+  height: 24px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 100%;
+}
+.dialog-btn-sec {
+  justify-content: center;
+  padding: 20px 24px 20px !important;
+  margin-bottom: 10px;
+}

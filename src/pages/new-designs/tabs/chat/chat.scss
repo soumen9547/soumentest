@@ -1,0 +1,40 @@
+.chatContent ul {
+    margin: 0 !important;
+    margin-top: -2px !important;
+    padding-left: 16px;
+}
+
+.chatContent ol {
+    margin: 0 !important;
+    margin-top: -2px !important;
+    padding-left: 16px;
+}
+
+.chatContent > p {
+    margin: 0px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    /* font-weight: 400; */
+    font-size: 14px;
+    color: #68717A !important;
+}
+
+.chatContent > p> span {
+    font-size: 14px;
+    color: #68717A !important;
+}
+
+.chatContent li{
+    margin-top: 0 !important;
+}
+
+// .chatContent > ul > li {
+//     color: #68717A;
+// }
+// .chatContent > ol > li {
+//     color: #68717A;
+// }
+
+.RichEditor-hidePlaceholder .public-DraftEditorPlaceholder-root {
+    display: none;
+}

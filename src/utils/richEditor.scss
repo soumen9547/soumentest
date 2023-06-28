@@ -1,0 +1,96 @@
+@import '../assets/style/sass/variables.scss';
+
+/************************************************************/
+
+.chatTextBox{
+    position: relative;
+    border: 1px solid $chatBorder;
+    margin: .5rem .75rem 0;
+    border-radius: 8px;
+}
+
+.iconBorder{
+    border:none !important;
+    padding: 0 !important;
+    background-color: $chatToolbarColor !important;
+}
+
+.iconBorder:active{
+    opacity: 1;
+}
+
+.iconBorder img{
+    // width:12px;
+    // height:12px;
+    opacity: .5;
+}
+
+.iconBorder:hover img{
+    opacity: 1;
+}
+
+.rdw-option-active img{
+    opacity: 1;
+}
+
+.iconBorder:hover,
+.rdw-option-active,
+.rdw-option-wrapper:hover,
+.rdw-option-wrapper:active {
+    box-shadow: none !important;
+    background-color: transparent !important;
+}
+
+/** Icons size*/
+.myCustomEmoji img{
+    width: 16px;
+    height: 16px;
+}
+
+.myCustombold{
+    height: 12px;
+    width: 10px;
+}
+
+.wrapperClassName{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.editorClassName{
+    padding: 10px;
+    min-height: 60px;
+    max-height: 200px;
+    font-size: 14px;
+}
+
+.emoji_class {
+    top: -210px !important;
+}
+
+.word-wrap{
+    word-wrap:break-word;
+    word-break: break-all;
+}
+
+.toolBarStyle{
+    border: none !important;
+    background-color: $chatToolbarColor !important;
+    padding: 10px 0 !important;
+    margin-bottom: 0 !important;
+    border-radius: 0px 0px 8px 8px !important;
+}
+
+.rdw-editor-toolbar div{
+    margin-bottom: 0;
+}
+
+.rdw-inline-wrapper{
+    border-left: 1px solid $chatBorder;
+    border-right: 1px solid $chatBorder;
+}
+
+.DraftEditor-editorContainer{
+    color: #152536;
+    font-size: 14px;
+}

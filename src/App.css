@@ -1,0 +1,297 @@
+.App {
+  min-height: 100vh;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* .MuiOutlinedInput-input {
+  padding: 10.5px 14px !important;
+} */
+/* .selectdrop .MuiOutlinedInput-input {
+  padding: 10.5px 32px  10.5px 14px  !important;
+ 
+} */
+
+.selectdrop.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border: 1px solid #fecba1 !important;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25) !important;
+  /* border-radius: 8px !important ; */
+}
+
+.editprofile .MuiOutlinedInput-input {
+  padding: 10.5px 32px 10.5px 14px !important;
+  font-weight: 600 !important;
+}
+.phonenub .MuiOutlinedInput-input {
+  padding: 7.5px 14px 7.5px !important;
+}
+.editprofile fieldset {
+  top: 0px !important;
+}
+.educationDetails .MuiInputBase-input {
+  font-weight: 600 !important;
+}
+.educationDetails .MuiOutlinedInput-input {
+  font-weight: 600 !important;
+}
+
+.email-profile .MuiOutlinedInput-input {
+  padding: 14.5px 32px 14.5px 14px !important;
+}
+.country-field .MuiOutlinedInput-root {
+  padding: 0px !important;
+}
+
+.MuiSelect-select,
+.MuiInputBase-input,
+.MuiFormControlLabel-label {
+  font-family: "Open Sans" !important;
+  font-size: 14px !important;
+}
+table td {
+  white-space: nowrap;
+}
+
+.ethnicity-field .MuiOutlinedInput-root,
+.ethnicity-field .MuiIconButton-root {
+  padding: 0px !important;
+}
+.MuiOutlinedInput-notchedOutline {
+  top: 0 !important;
+}
+/* hobbies  */
+.hobbies-field .MuiAutocomplete-input {
+  padding: 9px !important;
+}
+.hobbies-field .MuiOutlinedInput-notchedOutline {
+  top: -5px !important;
+}
+/* Add work history */
+.workHistoryField .MuiOutlinedInput-inputMarginDense {
+  padding-top: 16.5px !important;
+  padding-bottom: 16.5px !important;
+}
+.informationtext .MuiTypography-root {
+  font-family: "Open Sans";
+  text-align: center !important;
+  font-size: 22px !important;
+  font-weight: 600 !important;
+  color: #152536 !important;
+}
+
+.MuiRadio-colorSecondary.Mui-checked {
+  color: #000 !important;
+}
+/* for org settings */
+.MuiRadio-root.MuiRadio-colorPrimary.Mui-checked {
+  color: #000 !important;
+}
+.org-settings .MuiOutlinedInput-input {
+  padding: 13.5px 14px !important;
+}
+
+.MuiDivider-root {
+  border: 1px solid #c9cbd2 !important;
+}
+
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border: 1px solid #fecba1 !important;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25) !important;
+  /* border-radius: 8px !important ; */
+}
+/* .MuiSelect-select {
+  padding-right: 40px !important;
+} */
+
+.custom-modal .rdw-emoji-modal,
+.custom-modal .rdw-link-modal,
+.custom-modal .rdw-image-modal,
+.rdw-embedded-modal,
+.rdw-colorpicker-modal {
+  top: 0 !important;
+  transform: translateY(-100%) !important;
+  left: -200px;
+}
+
+.wrapperClassName {
+  position: relative;
+}
+
+.rdw-dropdown-optionwrapper {
+  max-height: 200px;
+  bottom: 198px !important;
+}
+.profile-celender .MuiOutlinedInput-input {
+  text-transform: uppercase !important;
+}
+Button {
+  text-transform: capitalize !important;
+}
+.profile-text {
+  display: -webkit-box !important;
+  -webkit-line-clamp: 2 !important;
+  -webkit-box-orient: vertical !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+
+legend {
+  height: 0px !important;
+  border: none !important;
+}
+
+.MuiPopover-paper {
+  background: #ffffff;
+  border: 1px solid #eff0f4 !important;
+  box-shadow: 0px 8px 35px rgba(0, 0, 0, 0.16) !important;
+  border-radius: 8px !important;
+}
+
+.user-found-text td:last-child {
+  padding: 16px;
+  text-align: left !important;
+}
+table {
+  border: 1px solid #eff0f4;
+}
+td:last-child {
+  text-align: right !important;
+}
+th:last-child {
+  text-align: right !important;
+}
+
+.MuiFormHelperText-contained {
+  margin-left: 0px !important;
+}
+Button {
+  white-space: nowrap;
+}
+
+/* Edit profile phone number box css */
+
+/* .editPhonePrefix .MuiInputBase-formControl{
+  padding: 0px 0px 3px 4px !important;
+} 
+
+.editPhonePrefix .MuiIconButton-root{
+  margin-right: -9px !important;
+}
+.editPhonePrefix .MuiAutocomplete-endAdornment{
+  right: 7px !important;
+}
+.editPhonePrefix .MuiInputBase-inputAdornedStart{
+  margin-left: -5px !important;
+} */
+
+.editPhonePrefix .MuiOutlinedInput-root {
+  padding: 0px !important;
+}
+/* Add user Autocomplete */
+.countryHeight .MuiInputBase-colorPrimary {
+  padding: 0px !important;
+  padding-left: 6px !important;
+}
+
+.countryHeight .MuiAutocomplete-endAdornment {
+  right: 1px !important;
+}
+
+/* Scrollbar design*/
+::-webkit-scrollbar {
+  width: 7px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  border-radius: 100px;
+}
+::-webkit-scrollbar-thumb {
+  background: #a3a3a3;
+  border-radius: 0.625rem;
+}
+/* Scrollbar design End*/
+
+.btnBackGround:hover {
+  background-color: rgba(25, 118, 210, 0.9) !important;
+}
+
+.chooseUser .MuiOutlinedInput-root.MuiInputBase-sizeSmall {
+  padding: 3px 0 0 6px !important;
+}
+.organization-add {
+  color: #152536 !important;
+  font-family: Open Sans;
+  font-size: 22px !important;
+  font-weight: 600 !important;
+  text-align: center !important;
+}
+.graduation-date .MuiOutlinedInput-root {
+  padding: 0px !important;
+}
+/* phone-Number code */
+.PhonePrefix .MuiOutlinedInput-input {
+  padding: 10.5px 14px 10.5px 14px !important;
+}
+.editPhonePrefix .MuiOutlinedInput-input {
+  padding: 10.5px 14px 10.5px 8px !important;
+}
+.phone-img {
+  padding-left: 6px;
+}
+/* popup button code */
+.dialog-btn {
+  font-family: Open Sans;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 8px;
+  height: 45px;
+}
+.dialog-bg-btn {
+  color: #fff !important;
+  background: #152536 !important;
+  width: 560px;
+}
+.dialog-border-btn {
+  color: #68717a !important;
+  border: 1px solid #68717a !important;
+  background: #fff !important;
+  width: 560px;
+}
+.community-text {
+  font-family: Open Sans !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+}

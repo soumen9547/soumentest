@@ -1,0 +1,40 @@
+@import './variables.scss';
+
+.mainBody{
+    display: flex;
+    overflow: hidden;
+    background-color: $bg;
+}
+
+.topHeader{
+    background-color: $white;
+    height: 84px;
+    display: flex;
+    align-items: center;
+    padding: 0 1.5rem;
+    box-sizing: border-box;
+    justify-content: space-between;
+    border-bottom: 1px solid #EFF0F4;
+    // box-shadow: 0px 8px 35px 0px rgba(0, 0, 0, 0.16);
+    .searchBox {
+        border:1px solid $gray1;
+        border-radius:8px;
+        display:flex;
+        align-items:center;
+        width:468px;
+        height:40px;
+        padding:9px;  
+        
+    }
+}
+
+.bodyBox{
+    height: calc(100% - 85px);
+    overflow: hidden;
+    padding: 1.15rem 1rem;
+}
+@media (max-width: 768px) {
+    .searchBox {
+        width:380px !important;
+    }
+  }
