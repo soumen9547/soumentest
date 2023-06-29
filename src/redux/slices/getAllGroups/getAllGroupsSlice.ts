@@ -1,8 +1,9 @@
+/* eslint-disable no-useless-catch */
 /* eslint-disable no-undef */
 /* eslint-disable prettier/prettier */
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import { API } from "../../../api";
-import { error } from "console";
+// import { error } from "console";
 
 export interface IGroupData {
     orgId:string;
@@ -37,9 +38,17 @@ const initialState:IInitialState = {
     errorText:''
 }
 
-export const fetchAllGroups = createAsyncThunk('getAllGroups',({orgId,grpId}:{orgId:string,grpId:string})=>{
-    return API.getAllGroups({orgId,grpId}).then((response)=>response.data).catch((error))
-})
+export const fetchAllGroups = createAsyncThunk('getAllGroups', async ({ orgId, grpId }: { orgId: string, grpId: string }) => {
+    try {
+        const response = await API.getAllGroups({ orgId, grpId });
+        return response.data;
+    } catch (error) {
+        // Handle the error here
+        // console.error(error);
+        throw error; // Rethrow the error to be captured by the rejected action
+    }
+  });
+  
 
 const getAllGroupsSlice = createSlice({
     name:'get all groups',

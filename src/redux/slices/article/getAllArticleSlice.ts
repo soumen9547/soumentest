@@ -1,7 +1,7 @@
 /* eslint-disable no-undef */
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 import { API } from '../../../api';
-import { error } from 'node:console';
+// import { error } from 'node:console';
 
 export interface IArticleData {
   articleId: string;
@@ -51,7 +51,10 @@ export const fetchAllArticles = createAsyncThunk(
   ({ orgId, groupId }: { orgId: string; groupId: string }) => {
     return API.getAllArticle({ orgId, groupId })
       .then((response) => response.data)
-      .catch(error);
+      .catch((error) => {
+        // console.error(error);
+        throw error;
+      });
   }
 );
 
